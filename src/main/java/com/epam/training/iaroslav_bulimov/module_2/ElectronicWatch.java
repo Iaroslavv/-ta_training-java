@@ -1,8 +1,6 @@
 package com.epam.training.iaroslav_bulimov.module_2;
 import java.util.Scanner;
 
-
-
 public class ElectronicWatch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
