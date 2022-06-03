@@ -8,7 +8,6 @@ public class SumOfPrevious {
         array[1] = false;
         for (int i = 2; i < values.length; i++) {
             if (values[i] == values[i - 2] + values[i - 1]) {
-                System.out.println(values[i]);
                 array[i] = true;
             } else {
                 array[i] = false;
